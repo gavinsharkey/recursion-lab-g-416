@@ -31,7 +31,7 @@ function addUpTo(array, index) {
   if (array.length === 1) {
     return array[0];
   } else {
-    return array[index] + addUpTo(array.slice(0, index), index`- 1)
+    return array[index] + addUpTo(array.slice(0, index), index - 1)
   }
 }
 
