@@ -16,7 +16,7 @@ function reverseString(string) {
 }
 
 function isPalindrome(string) {
-  if (string.length === 1) {
+  if (string.length <= 1) {
     return true;
   } else if (string[0] === string[string.length - 1]) {
     return isPalindrome(string.substring(1, string.length - 1))
@@ -25,6 +25,6 @@ function isPalindrome(string) {
   return false;
 }
 
-console.log(isPalindrome('tacocak'))
+console.log(isPalindrome(''))
 
 
