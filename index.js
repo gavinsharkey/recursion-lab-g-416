@@ -49,7 +49,7 @@ function maxOf(array) {
   }
 }
 
-console.log(maxOf[1, 3, 15, 27]);
+console.log(maxOf([1, 3, 15, 27]));
 
 
 
