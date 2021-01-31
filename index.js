@@ -25,6 +25,6 @@ function isPalindrome(string) {
   return false;
 }
 
-console.log(isPalindrome(''))
+console.log(isPalindrome('i'))
 
 
