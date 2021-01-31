@@ -37,16 +37,17 @@ function addUpTo(array, index) {
 
 function maxOf(array) {
   if (array.length === 1) {
-    return array[0]
+    return array[0];
   }
   
   if (array[1] > array[0]) {
-    return maxOf(array.slice(1))
+    return maxOf(array.slice(1));
   } else {
-    return maxOf(array.slice(0, 1).concat(array.slice(2)))
+    return maxOf(array.slice(0, 1).concat(array.slice(2)));
   }
 }
 
+console.log(maxOf[1, 3, 15, 27]);
 
 
 
