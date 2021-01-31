@@ -43,7 +43,7 @@ function maxOf(array) {
   if (array[1] > array[0]) {
     return maxOf(array.slice(1))
   } else {
-    return maxOf(a)
+    return maxOf(array.slice(0, 1))
   }
 }
 
