@@ -35,6 +35,16 @@ function addUpTo(array, index) {
   }
 }
 
+function maxOf(array) {
+  if (array.length === 1) {
+    return array[0]
+  }
+  
+  if (array[1] > array[0]) {
+    return maxOf(array.slice(1))
+  }
+}
+
 
 
 
