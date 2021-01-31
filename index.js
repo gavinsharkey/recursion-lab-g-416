@@ -15,4 +15,4 @@ function reverseString(string) {
   }
 }
 
-console.log(reverseString('Hello'))
+
